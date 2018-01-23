@@ -98,9 +98,7 @@ function deleteFavorito(req, res){
 					res.status(200).send({message : 'Marcados se ha eliminado'});
 				}
 			});
-		}
-
-		
+		}		
 	});
 }
 
